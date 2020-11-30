@@ -1,0 +1,150 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(https://i.imgur.com/bKAApXB.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.foto {
+  background-size: contain;
+
+  background: url(https://i.imgur.com/vdVVUN1.png);
+
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.5), transparent);
+}
+
+.banner:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(360deg, #ff43a8, transparent,  transparent);
+}
+
+img {
+  font-family: 'TT Commons';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+}
+
+.height100p {
+  height: 100vh;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.contentBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+  z-index: 10;
+}
+
+.contentBox img {
+  color: #fff;
+  font-size: 5rem;
+  width: 90%;
+  max-width: 950px;
+}
+
+.contentBox p {
+  color: #fff;
+  font-size: 1.3rem;
+}
+body {
+  font-family: Arial
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The browser window */
+.recuadro {
+  border: 3px solid #fff21a;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Container for columns and the top "toolbar" */
+.row {
+  padding: 10px;
+  background: #fff21a;
+
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+
+
+.right {
+  width: 10%;
+}
+
+.middle {
+  width: 90%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Three dots */
+.dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Style the input field */
+input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 25px;
+  color: #666;
+  padding: 5px;
+}
+
+/* Three bars (hamburger menu) */
+.bar {
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+}
+
+/* Page content */
+.content {
+  padding: 10px;
+}

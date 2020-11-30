@@ -1,14 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-vibra bg-vibra">
-    <a class="navbar-brand" href="#">VIBRA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand navbar-fixed-top navbar-vibra bg-vibra">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
-        </div>
-    </div> -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-nav">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">INICIO <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/eventos']" routerLinkActive="active">EVENTOS <span
+              class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+

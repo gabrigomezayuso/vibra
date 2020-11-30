@@ -1,12 +1,26 @@
+
+@font-face {
+  font-family: 'monument_extendedultrabold';
+  src: url('./assets/fonts/monumentextended-ultrabold-webfont.woff') format('woff2'),
+       url('./assets/fonts/monumentextended-ultrabold-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .bg-vibra {
     background-color: #ff43a8;
-    color: #fff21a;
 }
 
-.navbar-vibra {
-    color: #fff21a;
-}
 
 a {
+  font-family: 'monument_extendedultrabold',Arial, Helvetica, sans-serif;
     color: #fff21a;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  color: #ff43a8;
+  background-color: #fff21a;
+}
+.nav-pills .nav-link {
+  /* border-radius: .25rem; */
 }

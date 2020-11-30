@@ -5,6 +5,8 @@
     background: url(https://i.imgur.com/amwcCmF.png);
     background-size: cover;
     background-position: bottom;
+    background: linear-gradient( #fff, transparent,);
+
 }
 
 .banner .clouds {
