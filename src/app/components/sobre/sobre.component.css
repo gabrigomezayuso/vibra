@@ -7,7 +7,7 @@
   font-style: normal;
 
 }
-.banner {
+.banner2 {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -24,7 +24,7 @@
 
 }
 
-.banner:before {
+.banner2:before {
   content: "";
   position: absolute;
   top: 0;
@@ -34,7 +34,7 @@
   background: linear-gradient(white, rgba(255, 255, 255, 0.5), transparent);
 }
 
-.banner:after {
+.banner2:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -108,11 +108,6 @@ body {
   float: left;
 }
 
-
-
-.right {
-
-}
 
 .middle {
   width: 85%;
