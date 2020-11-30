@@ -1,0 +1,90 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.imgur.com/amwcCmF.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.banner .clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate calc(3s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    25%,
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3);
+    }
+}
+
+
+/* .banner {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: url(https://i.imgur.com/amwcCmF.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 0;
+} */
+
+img {
+    font-family: 'TT Commons';
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+}
+
+.height100p {
+    height: 100vh;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.contentBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+    z-index: 10;
+}
+
+.contentBox img {
+    color: #fff;
+    font-size: 5rem;
+    width: 90%;
+    max-width: 950px;
+}
+
+.contentBox p {
+    color: #fff;
+    font-size: 1.3rem;
+}
