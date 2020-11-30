@@ -1,0 +1,8 @@
+.footer, .push {
+	height: 50px; /* .push must be the same height as .footer */
+}
+.footer {
+  color: white;
+  background-color: #ff43a8;
+  padding: 15px
+  }
